@@ -1,9 +1,8 @@
 import React from 'react'
-// import Taskbar from "./../shared/Taskbar"
-// import WindowsTaskbar from "./WindowsTaskbar"
+import Taskbar from "./../shared/Taskbar"
+import WindowsTaskbar from "./WindowsTaskbar"
 import Window from "../shared/Window"
 import MainMenu from "./MainMenu"
-import Test from "../shared/Test"
 
 export default function Windows() {
   return (
@@ -15,10 +14,9 @@ export default function Windows() {
         <MainMenu />
       </Window>
       
-      {/* <Taskbar>
+      <Taskbar>
         <WindowsTaskbar />
-      </Taskbar> */}
-      <Test />
+      </Taskbar>
     </>
   )
 }

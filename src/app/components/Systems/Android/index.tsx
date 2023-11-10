@@ -1,9 +1,8 @@
 import React from 'react'
-// import AndroidTaskbar from "./AndroidTaskbar"
-// import Taskbar from "./../shared/Taskbar"
+import AndroidTaskbar from "./AndroidTaskbar"
+import Taskbar from "./../shared/Taskbar"
 import Window from "../shared/Window"
 import MainMenu from "../Windows/MainMenu"
-import Test from "../shared/Test"
 
 export default function Android() {
   return (
@@ -15,10 +14,9 @@ export default function Android() {
         <MainMenu />
       </Window>
       
-      {/* <Taskbar>
+      <Taskbar>
         <AndroidTaskbar />
-      </Taskbar> */}
-      <Test />
+      </Taskbar>
     </>
   )
 }
