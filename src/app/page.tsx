@@ -16,7 +16,9 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
-        Test: {pets[0]?.name}
+        { 
+          pets?.map((item: any) => <li>{item.name}</li>)
+        }
       </div>
       <SystemContainer />
     </main>
