@@ -9,7 +9,7 @@ export default defineConfig({
   title: 'Sanity Project',
 
   projectId: process.env.SANITY_API_PROJECT_ID || 'xw4ww4mz',
-  dataset: 'production',
+  dataset: process.env.SANITY_STUDIO_DATASET || "production",
 
   // plugins: [deskTool(), visionTool()],
   plugins: isDev
